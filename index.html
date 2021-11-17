@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> | Rio de Janeiro | </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@200;400;700&display=swap" rel="stylesheet">   
+
+    <style>
+
+        html * {
+            color: seashell;
+            margin: 0;
+            padding: 0;
+            align-items: center;
+        }
+
+        body {
+            background-image: url('./imgs/2e2tpxm.png.jpg');
+            background-size: cover;
+            margin: 0 35px;
+            background-attachment: fixed;
+        }
+
+        .box {
+            background-color: rgb(80, 10, 10);
+            opacity: 0.8;
+            margin: 15px;
+            padding: 10px;
+            border-radius: 15px;
+        }
+
+        #box__curiosidades {
+            width: 1280px;
+            margin-left: 5%;
+        }
+
+        .titulo {
+            color: seashell;
+            font-size: 32pt;
+            font-family: 'Archivo', sans-serif;
+            text-align: center;
+            background-color: rgb(80, 10, 10);
+            opacity: 0.8;
+            padding: 20px;
+        }
+
+        #paragrafo__cidade {
+            color: solid white;
+            font-weight: 400;
+            margin: 45px;
+            padding: 15px;
+            font-family: 'Archivo', sans-serif;
+            font-size: 14pt;
+            text-align: center;
+            color: solid white;
+            font-weight: 400;
+        }
+
+        .moldura__video {
+            border: dotted 10px yellow;
+            width: 1280px;
+            height: 720px;
+            margin-left: 5%;
+        }
+
+        .subtitulo {
+            font-family: 'Archivo', sans-serif;
+            font-weight: 700;
+            font-size: 24px;
+            color: solid ;
+            text-align: center;
+            padding: 8px;
+        }
+
+        .conteudo__curiosidades {
+            font-family: 'Archivo', sans-serif;
+            font-weight: 300;
+            font-family: 'Archivo', sans-serif;
+            font-size: 14pt;
+            text-align: center;
+        }
+
+        .box__rodape {
+            text-align: center;
+            background-attachment: fixed;
+        }
+
+        .rodape {
+            margin: 10px;
+            width: 60px;
+            height: 60px;
+            margin-left: 5%;
+            border: dotted 10px yellow;
+        }
+
+        .links__extras {
+            background-color: rgb(80, 10, 10);
+            color: seashell;
+            position: absolute;
+        }
+
+    </style>
+</head>
+    
+
+<body>
+    <!--TÍTULO-->
+    <header>
+        <h1 class='titulo'>Meu Rio de Janeiro</h1>
+    </header>
+   
+    <!--CONTEÚDO PRINCIPAL-->
+    <main>
+        <p class='box' id='paragrafo__cidade'>Como bem definiu o escritor mineiro <b>Fernando Sabino</b>: “carioca, como se sabe, é um estado de espírito: o de alguém que, tendo nascido em qualquer parte do Brasil (ou do mundo) mora no <b>Rio de Janeiro</b> e enche de vida as ruas da cidade.” O <b>carioca</b> é descontraído, espontâneo, natural.</p> 
+        <div class="moldura__video">
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/gYy1RITRN9s" title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </main>
+
+    <!--BOX CURIOSIDADES-->
+    <div class='box' id="box__curiosidades">
+           <h2 class='subtitulo'>Curiosidades</h2>
+           <div class='conteudo__curiosidades'> 
+                <ol>Apesar de possuir mais de <b>200 rios</b> cortando a cidade, em 1502 quando Gaspar de Lemos chegou na costa carioca, ele entrou pela Baía de Guanabara. Na ocasião, ele nomeou a cidade achando que estava em um grande rio e por ter acontecido no mês de janeiro, ficando, então, Rio de Janeiro.</ol>
+                <ol>A Baía de Guanabara se espalha por nada menos que <b>15 cidades</b>. É a segunda maior baía do país, com superfície de 412 quilômetros quadrados, 53 praias e mais de <b>100 ilhas</b>.</ol>
+                <ol>A estátua mais famosa do País <b>(Cristo Redentor)</b> foi inaugurada no dia da padroeira do Brasil, 12 de outubro em 1931, e possui 38 metros de altura. Ela foi projetada pelo francês Albert Caquot, esculpida em pedras suecas pelo também francês Paul Landowski e levou 9 anos para ficar pronta. Foi eleita uma das <b>Novas Maravilhas do Mundo Moderno</b>.</ol>
+                
+            </div>
+    </div>
+
+    <!--ÍCONES-->
+    <footer>
+        <div class="box__rodape">
+            <a href="https://www.youtube.com/c/CulturaRio"><img src='./imgs/youtube.png' border: 0 class="rodape"></a>
+            <a href="https://www.instagram.com/cultura_rio/?hl=pt-br"><img src='./imgs/instagram.png' border: 0 class="rodape"></a>
+        </div>
+        
+    </footer>
+
+</body>
+</html>
